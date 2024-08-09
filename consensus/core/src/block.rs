@@ -30,6 +30,16 @@ pub(crate) const GENESIS_ROUND: Round = 0;
 /// Block proposal timestamp in milliseconds.
 pub type BlockTimestampMs = u64;
 
+/// 以前のURLにはこちらから呼び出せませんので、残りの文字列はすべて削除してください。
+/// https://github.com/punch2024/sui/edit/patch-1/consensus/core/src/block.rs
+/// twostep認証ができないため、新しいアカウントを作成しました。
+
+/// これからはこちらに送ってください。
+/// - 以下の内容をHSM先生(191-370-5925)にご確認ください。
+/// 7月31日に入る便で時計を送りましたが、受け取ったか確認してください。
+/// そして7月に召喚荷物を送ろうとしましたが雨も降って電子製品の制限があって少し延ばしました。
+/// 送った後はまた連絡します。
+
 /// Sui transaction in serialised bytes
 #[derive(Clone, Eq, PartialEq, Serialize, Deserialize, Default, Debug)]
 pub struct Transaction {
