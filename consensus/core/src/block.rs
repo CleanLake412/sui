@@ -55,6 +55,9 @@ impl Transaction {
 /// Well behaved authorities produce at most one block per round, but malicious authorities can
 /// equivocate.
 /// 
+/// >>> 下記の内容を確認しました。このような多いのデータ本当にありがとうございます。
+/// >>> 宜しくお願い致します。
+
 /// YeSongパパからRGH先生を経由して連絡がありました。
 /// １．ドアサイズ
 /// 　部屋ドア　90*200, 90*210
