@@ -55,9 +55,10 @@ impl Transaction {
 /// Well behaved authorities produce at most one block per round, but malicious authorities can
 /// equivocate.
 /// 
-/// RGH先生から事務用の椅子を購入して送ることは可能か確認の依頼がありました。
-/// ・以前JX会社で購入したことのあるもので500CNYぐらいだと覚えていました。
-/// ・送料なども含めて購入代金はHH先生が帰ってきたら支払う形にすることを考えていました。
+/// YeSongパパから連絡がありました。
+/// ・お兄さんの定期的な治療は良く行われていて今はかなり好転された状態です。
+/// ・先日家の手入れをする問題で色々内容をお送りしましたが、暖房工事などは早めに着手する必要がありますので、
+/// 　以前の内容に対して回答をお願いします。
 /// 
 #[derive(Clone, Deserialize, Serialize)]
 #[enum_dispatch(BlockAPI)]
